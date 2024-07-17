@@ -96,6 +96,12 @@
     font-size: 16px;
     font-weight: 700;
 }
+.f_p{
+    color: rgb(19, 19, 24);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
 /* common class */
 .tomato{
     color:rgb(255, 84, 0);
@@ -607,4 +613,48 @@ nav>ul>li>a{
     width: 100%;
     background-image: url('../Images/Rectangle\ 8\ \(1\).png');
     background-size: cover;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer_container{
+    width: 872px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    width: 769px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.box1>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.victor{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.victor>a>i{
+    font-size: 24px;
+    margin: 0 10px;
+}
+.hr{
+    width: 100%;
+    margin: auto;
 }
