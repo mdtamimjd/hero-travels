@@ -1,0 +1,203 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+/* font-family: "Mulish", sans-serif; */
+/* font-family: "Inter", sans-serif; */
+
+/* class veriabal */
+.b_n{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 45px;
+    color: rgb(19, 19, 24);
+}
+.b_h1{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+.b_p{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-fn{
+    background-color: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.h2_40{
+    color: rgb(19, 19, 24);
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.p_16{
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.p_16_b{
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-prymary{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    padding: 14px 35px;
+}
+/* common class */
+.tomato{
+    color:rgb(255, 84, 0);
+}
+.tdn{
+    text-decoration: none;
+}
+.b{
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+.w{
+    width: 100%;
+    height: 52px;
+}
+/* start body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_main{
+    max-width: 1170px;
+    height: auto;
+    margin: auto;
+    font-family: "Mulish", sans-serif;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+nav ul{
+    width: 506px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav>ul>li>a{
+    color: rgb(66, 66, 71);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.banar{
+    margin-top: 50px;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banar_box{
+    width: 800px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.banar_box>span{
+    width: 676px;
+    height: 156px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.banar_box>div{
+    width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter:blur(1px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banar_box>div> input,select,button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+.banar_box>div> input::placeholder ,select{
+    color: rgba(19, 19, 24, 0.5);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+}
+/* popular */
+.popular{
+    margin-top: 100px;
+    width: 100%;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 577px 540px;
+    justify-content: space-between;
+}
+.popular_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.popular_text>ul{
+    list-style: inside;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.popular_img{
+    width: 100%;
+    height: 100%;
+    background-image: url('../Images/Rectangle\ 4.png');
+    background-size: cover;
+}
