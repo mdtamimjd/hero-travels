@@ -52,6 +52,16 @@
     font-size: 16px;
     font-weight: 400;
 }
+.p_d{
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.i_s{
+    width: 20px;
+    height: 20px;
+}
 .btn-prymary{
     color: rgb(255, 255, 255);
     font-family: Mulish;
@@ -73,6 +83,12 @@
     font-size: 24px;
     font-weight: 800;
 }
+.p_tomato{
+    color: rgb(255, 84, 0);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
 /* common class */
 .tomato{
     color:rgb(255, 84, 0);
@@ -89,6 +105,9 @@
 .w{
     width: 100%;
     height: 52px;
+}
+.flex{
+    display: flex;
 }
 /* start body */
 *{
@@ -400,4 +419,90 @@ nav>ul>li>a{
 .price>div>img{
     width: 64px;
     height: 64px;
+}
+
+/* deals */
+.deals{
+    margin-top: 100px;
+    width: 1170px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.deals_text{
+    width: 643px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.deals_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.deals_item1{
+    width: 100%;
+    height: 500px;
+    background-image: url('../Images/Group\ 39.png');
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.deals_item1>div,.deals_item2>div,.deals_item3>div{
+    width: 579px;
+    height: 389px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.8);
+    margin: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deals_item1>div>div,.deals_item2>div>div,.deals_item3>div>div{
+    width: 452px;
+    height: 289px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.some_info1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.some_info1>span{
+    display: flex;
+    column-gap: 8px;
+}
+.deals_item2{
+    width: 100%;
+    height: 500px;
+    background-image: url('../Images/Group\ 40.png');
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.deals_item3{
+    width: 100%;
+    height: 500px;
+    background-image: url('../Images/Group\ 39.png');
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
