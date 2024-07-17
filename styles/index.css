@@ -347,6 +347,10 @@ nav>ul>li>a{
     width: 486px;
     height: 220px;
     margin: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
 }
 .hotel>div>img{
     width: 64px;
@@ -362,6 +366,10 @@ nav>ul>li>a{
     width: 486px;
     height: 220px;
     margin: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
 }
 .map>div>img{
     width: 64px;
@@ -384,6 +392,10 @@ nav>ul>li>a{
     width: 486px;
     height: 220px;
     margin: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
 }
 .price>div>img{
     width: 64px;
